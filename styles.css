@@ -1,0 +1,227 @@
+header {
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+.barraRosa{
+    text-align: center;
+    background-color: rgb(231, 166, 222);
+    padding:5px;
+    margin-top: 0cm;
+    margin-right: 0px;
+    color: white;
+    font-size:small;
+}
+
+nav{
+    position:relative;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+    height: 70px;
+
+}
+.planetSkin {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;  
+}
+
+.planet {
+    color: rgb(14, 163, 138);
+}
+
+.skin {
+    color: rgb(216, 155, 189);
+}
+
+ul.link1 {
+    display: flex;
+    flex-wrap:wrap;    
+    column-gap: 40px;
+    row-gap: 5px;
+    align-items:center;
+    justify-content:space-around ;
+    list-style: none;
+  
+    }
+
+ul.link1 li a{
+      text-decoration: none;
+      color:rgb(14, 163, 138);
+    
+      
+      
+    }   
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:3px;
+    width: 120px;
+    padding-right: 20px;
+}
+
+.iniciarSesion {  
+    width: 40px;              
+    height: 60px;               
+    background-image: url('./img/sesion.png'); 
+    background-size: cover;     
+    background-position: center;
+    border: none;               
+}
+
+.buscar {  
+    width: 40px;              
+    height: 60px;               
+    background-image: url('./img/buscar.png'); 
+    background-size: cover;     
+    background-position: center;
+    border: none;               
+}
+
+.carro {  
+    width: 40px;              
+    height: 60px;               
+    background-image: url('./img/carro.png'); 
+    background-size: cover;     
+    background-position: center;
+    border: none;               
+}
+
+main {
+    background-image: url('img/sk_fondo.jpg'); 
+    background-size: auto; 
+    background-position: left;  
+    min-height:80vh;
+    min-width: 100vw;
+    display: flex;
+
+ 
+      }
+
+
+.parrafos {
+    display: flex; 
+    
+    width: 100%;  
+    flex-direction: column;
+    justify-content:end;
+    
+    
+    
+}
+h3 {
+    color: white;
+    padding-left: 70px;
+} 
+
+h5 {
+    color:white;
+    padding-left: 70px;
+
+}
+
+article {
+    display: flex;
+    height: 70px; 
+    justify-content:space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.club{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 10px;
+    background-color:  rgb(231, 166, 222);
+    border: none;
+    color: white;
+}
+
+.chat {
+    background-color: rgb(231, 166, 222);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border:none;
+    background-image: url('img/bocadillo.png'); 
+    background-size:32px; 
+    background-repeat:no-repeat;    
+    background-position: center;
+    
+}
+.desplegablebtn{
+    display: none; 
+    border: none;
+}
+
+@media (min-width:768px){
+ul.link2{
+    display:none;
+}
+}
+
+@media (max-width:480px){
+    
+    ul.link1{
+        display: none;
+    }
+    ul.link2{
+        display: none;
+    }
+.desplegablebtn{
+    display: flex;
+    border: none;
+    margin-left: 30px;
+    color:rgb(14, 163, 138);
+    background-color: white;
+}
+}
+
+@media (min-width:480px) and (max-width:768px) {
+
+ul.link1{
+    display:none;    
+    }
+main {
+    display: flex;
+    flex-direction: row;
+    background-size:auto,auto;
+    }
+ul.link2{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+    height: 80vh;
+    background-color: white;
+    margin: 0px;
+    padding-top: 50px;
+    width: 270px;
+    }
+ul.link2 li a{
+    text-decoration: none;
+    color:rgb(14, 163, 138);
+    flex-wrap: wrap;  
+    }
+   
+.botones{
+    margin-left: 100px;
+}
+}}
+
+
